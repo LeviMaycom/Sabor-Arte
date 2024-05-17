@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tw": "npx tailwindcss -i ./src/employees/tw/tailwindcss_input.css -o ./src/css/styles.css --watch"
   },
   "keywords": [],
   "author": "",
